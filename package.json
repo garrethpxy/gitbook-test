@@ -1,0 +1,19 @@
+{
+  "name": "gitbook-test",
+  "version": "1.0.0",
+  "description": "--- description: To be broken up into separate pages... ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrethpxy/gitbook-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrethpxy/gitbook-test/issues"
+  },
+  "homepage": "https://github.com/garrethpxy/gitbook-test#readme"
+}
