@@ -58,9 +58,9 @@ To embed the bot to another HTML page:
 
 1. Now, open the HTML file to a web browser and the new bot displays.
 
-![A screenshot of a cell phone
+!\[A screenshot of a cell phone
 
-Description automatically generated](../.gitbook/assets/199.png)
+Description automatically generated\]\(../.gitbook/assets/199.png\)
 
 ## Bot Options
 
@@ -112,9 +112,7 @@ The area where you assign roles and permissions for access to the bot. By defaul
 
 ### Default Bot Configuration
 
-{% hint style="info" %}
-This section requires technical understanding of JSON syntax to use properly.
-{% endhint %}
+> Note: This section requires technical understanding of JSON syntax to use properly.
 
 Here you can update the bot configuration which controls the Bot's behavior and functionality.
 
@@ -130,7 +128,7 @@ These are the options available for editing:
 
 Use this value to override the Bot Name used throughout the chat interface.
 
- ![](../.gitbook/assets/205.png)![](../.gitbook/assets/206.png)
+![](../.gitbook/assets/205.png)![](../.gitbook/assets/206.png)
 
 #### **Input Placeholder**
 
@@ -252,13 +250,9 @@ You can preview the newly uploaded image under the Preview Section.
 
 ![](../.gitbook/assets/216.png)
 
-#### 
-
 ### Landing Page
 
-{% hint style="info" %}
-This section requires basic technical knowledge of HTML and CSS.
-{% endhint %}
+> **Note:** This section requires basic technical knowledge of HTML and CSS.
 
 The tab where you can customize the Public Chat UI landing page.
 
