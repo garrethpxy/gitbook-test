@@ -2,9 +2,7 @@
 
 User and Role management are done on the KPO Platform, which Converse sits on.
 
-{% hint style="info" %}
-Note: You need to have the Super Admin role to access the functionalities in this section.
-{% endhint %}
+> **Note**: You need to have the Super Admin role to access the functionalities in this section.
 
 To access the settings for User & Roles Management:
 
@@ -112,7 +110,7 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Manage Bot Content </b>
+      <td style="text-align:left"><b>Manage Bot Content</b>
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>

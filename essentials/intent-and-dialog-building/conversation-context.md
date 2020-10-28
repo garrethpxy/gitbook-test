@@ -2,7 +2,7 @@
 
 In simple terms, the Conversation Context can be seen as the "short term memory" of the chatbot when it is having a conversation with a Chat User.
 
-## Usage Scenario: **Data Collection** 
+## Usage Scenario: **Data Collection**
 
 Having this "Short Term Memory" is essential when engaging in conversation, because it allows the Bot to remember and use information previously provided by the Chat User.
 

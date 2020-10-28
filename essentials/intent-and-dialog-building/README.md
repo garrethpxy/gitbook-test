@@ -53,5 +53,3 @@ When an Intent is triggered, the Bot replies to the Chat User with the Response 
   </tbody>
 </table>
 
-### 
-
