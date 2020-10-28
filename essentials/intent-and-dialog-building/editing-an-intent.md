@@ -172,7 +172,7 @@ The Outputs specify the data that the Function can return after it is executed s
 
 #### **Service Action Timeout**
 
-Service Action will wait up to 5 seconds before timing out. If you wish to configure the timeout value, please contact TAIGER Support.
+Service Action will wait up to 5 seconds before timing out. If you wish to configure the timeout value, please contact your administrator.
 
 #### **Detecting a successful call and handling errors**
 
