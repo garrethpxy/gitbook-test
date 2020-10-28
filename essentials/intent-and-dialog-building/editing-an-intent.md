@@ -76,13 +76,13 @@ The State Configuration Panel contains State Blocks, each providing specific fun
 
 The functionality of each Block is executed in the same order as it is displayed on the UI. For example, the Service Action Block is executed before the Content Block. This means that data returned from the Service Action is accessible in the Content Block of the same State.
 
-#### **Service Action Block**
+#### **Service Action Block** 
 
-Using Service Action, you can create conversation flows that pull/push data from your database and backend systems. Conversation Data is stored in the [Conversation Context](conversation-context.md), which can be used to drive conversation logic.
+Using Service Action, you can create conversation flows that pull/push data from your database and backend systems. Conversation Data is stored in the [Conversation Context](conversation-context.md), which can be used to drive  conversation logic.
 
-Service Action allows you to call Converse Middleware Services or a Custom Webhook. See [Data Integrations](../../advanced/data-integrations.md) for a deep-dive into creating Converse Plugins or a Webhook.
+Service Action allows you to call Converse Middleware Services or a Custom Webhook. See [Data Integrations](../../advanced/data-integrations.md) for a deep-dive into creating Converse Plugins or a Webhook. 
 
-**1\) Service**
+**1\)  Service**
 
 Displays a list of available Services installed on the Converse Middleware. If "Webhook URL \(Custom\)" is selected, then the system expects a data payload that follows the specification found in [Configuring a Webhook Connector](../../advanced/data-integrations.md#configuring-a-webhook-connector).
 
@@ -433,7 +433,7 @@ Use this configuration to collect data from the Chat User. Data collected is sto
   <thead>
     <tr>
       <th style="text-align:left">
-        <p><b>Basic Usage Example:</b>
+        <p><b>Basic Usage Example: </b>
         </p>
         <p><b>Scenario Collecting Email from a User</b>
         </p>
@@ -617,10 +617,13 @@ Dialog Settings allow Bot Admins to configure advanced dialog behaviors. These s
     <tr>
       <td style="text-align:left">Jump Intent</td>
       <td style="text-align:left">
+        <p></p>
         <p>If this is configured, then when this State is triggered, the Chat User
           is brought to the specified Intent&apos;s Flow.</p>
+        <p></p>
         <p>We recommend using Trigger Intent functionality found in Button/QuickReply
           and Transitions (available in v2.6.0+).</p>
+        <p></p>
         <p>Important Notes:</p>
         <ul>
           <li>If Jump is setup, the Content configuration in the State is <b>ignored</b>

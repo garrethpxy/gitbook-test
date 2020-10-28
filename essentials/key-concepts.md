@@ -6,7 +6,7 @@ TAIGER Converse allows you to create engaging conversation experiences, and allo
 
 This User Guide is meant for Administrators of Converse Bots, who will create, configure and train Bots to service the target end-users.
 
-### Basic Terminology
+## Basic Terminology
 
 | **Term** | **Description** |
 | :--- | :--- |
