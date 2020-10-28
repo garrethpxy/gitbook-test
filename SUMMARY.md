@@ -1,6 +1,6 @@
 # Table of contents
 
-* [TAIGER Converse User Guide v2.6.0](README.md)
+* [TAIGER Converse User Guide v2.7.0](README.md)
 
 ## Essentials
 
