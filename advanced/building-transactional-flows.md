@@ -24,8 +24,8 @@ This guide provides instructions for building a Flow that provides available Hot
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Step Description</th>
-      <th style="text-align:left">Example</th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
@@ -134,6 +134,7 @@ This guide provides instructions for building a Flow that provides available Hot
         </p>
         <p>Great! Now you have set up the Flow to collect all the required user inputs.
           Now, we will configure the Service call via Service Action block</p>
+        <p></p>
         <p>In the newly created <em>&quot;Call Service&quot;</em> State:</p>
         <ul>
           <li>Add a Service Action Block and set it up like the screenshot on the right.</li>
@@ -263,6 +264,7 @@ This guide provides instructions for building a Flow that provides available Hot
         </p>
         <p>Click on the &quot;<em>No Available Hotels</em>&quot; State in the Graphical
           Editor to edit it.</p>
+        <p></p>
         <p>Set the Text Message component with the content shown on the right.</p>
       </td>
       <td style="text-align:left">
@@ -275,12 +277,15 @@ This guide provides instructions for building a Flow that provides available Hot
         </p>
         <p>Click on the &quot;<em>Display Hotels</em>&quot; State in the Graphical
           Editor to edit it.</p>
+        <p></p>
         <p>Set the Text Message component with the content shown on the right.</p>
+        <p></p>
         <p>Note: We can use the <em>numHits</em> property in the Text Message Component
           by surrounding it with a <code>%()</code>
         </p>
         <p>Add a Dynamic Component, and set the value with the content shown on the
           right.</p>
+        <p></p>
         <p>Here, we are displaying the Message Component(s) dynamically generated
           by the Converse Plugin Function. In this case, it is a Carousel Component
           containing a list of Hotels.</p>

@@ -44,13 +44,13 @@ Add the following Phrases:
 
 Navigate to the Intent Editor for the Intent you created, the edit first State's Content:
 
-You can use the captured entity with the syntax **`%(variableName)`.** The variable name was specified in Step 2.
+You can use the captured entity with the syntax **`%(variableName)`.** The variable name was specified in Step 2. 
 
 #### Using the Label of the Entity
 
 The Entity captured is by default, an element in the Ontology, which has a Unique Identifier \(URI\). This identifier allows us to reference the exact ontology element, if needed.
 
-Typically, what we would want to use in responses to the chat user is the short name \(a.k.a Label\) of the Ontology element.
+ Typically, what we would want to use in responses to the chat user is the short name \(a.k.a Label\) of the Ontology element.
 
 To use the Ontology element’s Label, you should append the text "Label" to the variable name, i.e. **`%(variableNameLabel)`**
 
@@ -59,4 +59,6 @@ To use the Ontology element’s Label, you should append the text "Label" to the
 **You're all done! Check that your Bot responds in the following ways:**
 
 ![](../.gitbook/assets/101.png)
+
+
 
