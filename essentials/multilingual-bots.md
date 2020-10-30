@@ -13,7 +13,7 @@ Currently, Converse supports the following languages, with more on the way.
 
 The **Language Selector** in the Navigation Bar allows you to manage a specific **Language Variant** for each Intent.
 
-![Use the Language Selector to choose the language](../.gitbook/assets/image%20%281%29.png)
+![Use the Language Selector to choose the language](../.gitbook/assets/image%20%2811%29.png)
 
 ## Intent Language Variants
 
@@ -24,7 +24,9 @@ Language Variants allows us to edit only the Language-specific content of an Int
 #### **The following properties are shared across Language Variants:**
 
 * [Intent Details](intent-and-dialog-building/editing-an-intent.md#edit-intent-details) \(Intent Name, Tags, etc\)
-* [Bot Response](intent-and-dialog-building/editing-an-intent.md#configuring-an-intents-response-using-the-state-editor) flow structure, consisting of Dialog States and Transitions
+* [Bot Response](intent-and-dialog-building/editing-an-intent.md#configuring-an-intents-response-using-the-state-editor) \(Conversation Flow structure, consisting of Dialog States and Transitions\)
+  * This means you only need to build your Intent's Conversation Flow once, and all Language Variants will use it.
+  * Likewise, when an Intent's Conversation Flow is changed, all Language Variants are affected.
 * [Message Component](intent-and-dialog-building/editing-an-intent.md#modern-editor-message-components) within each Dialog State 
 
 #### **The following properties are language-specific, and can be configured per Language Variant:**
@@ -35,15 +37,51 @@ Language Variants allows us to edit only the Language-specific content of an Int
   * Each Language Variant has its own set of Training Phrases. Training Phrases must be written in the language of the Intent Language Variant.
 * Text Content within each Message Component
 
+## Base Language
+
+Multilingual Bots have a Base Language, which is set to English by default.
+
 ## How to configure Intents in Multilingual Bots
 
-The follow steps cover the process of creating an Intent that enables a Multilingual Bot to understand both English and Vietnamese Chat User inputs, and respond in the correct language.
+The follow steps cover the process of creating an Intent that enables a Multilingual Bot to understand both English and Vietnamese Chat User inputs, and respond in the correct language. 
 
-Create a new Intent
+The same steps can be followed for any other pair of Bot Languages \(e.g. English and Chinese\).
 
-Add English training phrases for the English Variant
+#### Create a new Intent
 
-Build English response content for the English Variant
+[Create a new Intent](intent-and-dialog-building/create-an-intent.md#creating-an-intent) with the name: "How do I create an account"
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+#### Add English training phrases for the English Variant
+
+To edit the English Variant of this Intent, ensure that the Bot Selector is set to English
+
+![](../.gitbook/assets/image%20%286%29.png)
+
+Click on the "Phrases" button below the Intent Name to open the Phrase Panel. Add the English Training Phrases to this panel.
+
+![](../.gitbook/assets/image%20%282%29.png)
+
+#### Build English response content for the English Variant
+
+To build the bot response, we will use the [State Configuration Panel](intent-and-dialog-building/editing-an-intent.md#state-configuration-panel)
+
+In the Content Block, switch to the Modern Editor using Toggle shown below
+
+![](../.gitbook/assets/image%20%285%29.png)
+
+
+
+Add a Button List component 
+
+![](../.gitbook/assets/image%20%283%29.png)
+
+Configure the Button List component like so:
+
+![](../.gitbook/assets/image%20%289%29.png)
+
+Test the Bot Out
 
 Switch Language Selector to the Vietnamese 
 
