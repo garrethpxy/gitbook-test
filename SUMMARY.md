@@ -19,6 +19,7 @@
 * [Common Space](essentials/common-space.md)
 * [Bot Management](essentials/bot-management.md)
 * [User & Roles Management](essentials/user-and-roles-management.md)
+* [Multilingual Bots](essentials/multilingual-bots.md)
 
 ## Advanced
 
