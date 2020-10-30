@@ -13,7 +13,7 @@ Currently, Converse supports the following languages, with more on the way.
 
 The **Language Selector** in the Navigation Bar allows you to manage a specific **Language Variant** for each Intent.
 
-![Use the Language Selector to choose the language](../.gitbook/assets/image%20%2813%29.png)
+![Use the Language Selector to choose the language](../.gitbook/assets/image%20%2816%29.png)
 
 ## Intent Language Variants
 
@@ -60,7 +60,7 @@ After adding the Training Phrases for a specific language, you should [Train you
 
 In Converse, Bot Responses between Language Variants will follow the same flow structure and each Dialog State will contain same Message Components. 
 
-&lt;screenshot&gt;
+![English and Vietnamese Bot Responses share the same flow structure](../.gitbook/assets/image%20%284%29.png)
 
 This makes your Multilingual Bot easier to maintain, because you don't need to rebuild the Conversation structure for each Language Variant. However, this has some important side effects to note:
 
@@ -71,7 +71,7 @@ This makes your Multilingual Bot easier to maintain, because you don't need to r
 
 Naturally, the **Text Fields** within the Message Components can be customized per Language.
 
-&lt;screenshot&gt;
+![](../.gitbook/assets/image%20%2812%29.png)
 
 To do so:
 
@@ -82,63 +82,38 @@ To do so:
 
 #### Text Fields for each Message Component
 
-&lt;table&gt;
+| Message Component | Language-specific Text Fields |
+| :--- | :--- |
+| Text Message | The single text field is editable |
 
-## Step-By-Step
+### Activating / Deactivating Language Variants
 
-The follow steps cover the process of creating an Intent that enables a Multilingual Bot to understand both English and Vietnamese Chat User inputs, and respond in the correct language. 
+Language Variant can be Activated or Deactivated individually from one another.
 
-The same steps can be followed for any other pair of Bot Languages \(e.g. English and Chinese\).
+This means you can Activate the English Variant while keeping the Vietnamese Variant Inactive, and vice versa. This is useful in cases you only have one Language content prepared, or if a particular Intent is relevant in one language but not another.
 
-#### Create a new Intent
+Please be sure to Activate each Language Variant individually once you are done setting up the Training Phrases and Bot Responses!
 
-[Create a new Intent](intent-and-dialog-building/create-an-intent.md#creating-an-intent) with the name: "How do I create an account"
+### Archiving Intents
 
-![](../.gitbook/assets/image%20%281%29.png)
+When an Intent is Archived, ALL Language Variants are affected. 
 
-#### Add English training phrases for the English Variant
-
-To edit the English Variant of this Intent, ensure that the Bot Selector is set to English
-
-![](../.gitbook/assets/image%20%287%29.png)
-
-Click on the "Phrases" button below the Intent Name to open the Phrase Panel. Add the English Training Phrases to this panel.
-
-![](../.gitbook/assets/image%20%282%29.png)
-
-#### Build English response content for the English Variant
-
-To build the bot response, we will use the [State Configuration Panel](intent-and-dialog-building/editing-an-intent.md#state-configuration-panel)
-
-In the Content Block, switch to the Modern Editor using Toggle shown below
-
-![](../.gitbook/assets/image%20%286%29.png)
-
-
-
-Add a Button List component 
-
-![](../.gitbook/assets/image%20%283%29.png)
-
-Configure the Button List component like so:
-
-![](../.gitbook/assets/image%20%2810%29.png)
-
-Test the Bot out on the Admin Chat with Quick-Test
-
-![](../.gitbook/assets/image%20%285%29.png)
-
-Switch Language Selector to the Vietnamese 
-
-Add Vietnamese training phrases for the English Variant
-
-Add Vietnamese response content for the English Variant
-
-Train Bot in both Languages
-
-Test your Bot
+You should only change an Intent's Status to ARCHIVED if all Language Variants for this Intent are no longer valid.
 
 ## Working with Unhandled Phrases 
+
+### View Unhandled Phrases for a Specific Language
+
+* Navigate to the Unhandled Phrases page
+* Set the Language Selector to your desired language
+* The Unhandled Phrases displayed will be those for the specified language only. 
+* Past Resolved and Invalid Phrases will also be Language specific
+
+### Resolve Unhandled Phrases
+
+#### Resolve to Existing or New Intent 
+
+The Unhandled Phrases will be resolved to the Training Phrases for the Intent's Language Variant. Other Language Variant's Training Phrases will not be affected.
 
 ## 
 
