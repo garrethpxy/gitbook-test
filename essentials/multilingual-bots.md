@@ -67,7 +67,7 @@ This makes your Multilingual Bot easier to maintain, because you don't need to r
 * Adding or Removing a Dialog State will apply to all of the Intent's Language Variants
 * Adding or Removing a Message Component from a Dialog State will apply to all of the Intent's Language Variants
 
-#### Customize Text Fields per Language
+#### Language Specific Text Fields
 
 Naturally, the **Text Fields** within the Message Components can be customized per Language.
 
@@ -80,12 +80,50 @@ To do so:
 3. Change the Text Fields to the content in the current selected language
 4. Save the Changes
 
-#### Text Fields for each Message Component
+The table below lists the available Language Specific Text fields for each Message Component.
 
-| Message Component | Language-specific Text Fields |
-| :--- | :--- |
-| Text Message | The single text field is editable |
-|  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Message Component</th>
+      <th style="text-align:left">Language-specific Text Fields</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Text Message</td>
+      <td style="text-align:left">The single text field is editable</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Button List</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Text Message</li>
+          <li>Button Name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Quick Replies</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Text Message</li>
+          <li>Button Name</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Carousel &amp; Card</td>
+      <td style="text-align:left">
+        <ul>
+          <li>Title</li>
+          <li>Description</li>
+          <li>Button Name</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Activating / Deactivating Language Variants
 
