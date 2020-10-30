@@ -4,7 +4,7 @@
 
 ## Essentials
 
-* [Introduction](essentials/key-concepts.md)
+* [What is Converse?](essentials/key-concepts.md)
 * [Signing In and Out](essentials/signing-in-and-out.md)
 * [Libraries and Intent Management](essentials/libraries-and-intent-management.md)
 * [Intent & Content Building](essentials/intent-and-dialog-building/README.md)

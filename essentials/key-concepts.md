@@ -1,4 +1,4 @@
-# Introduction
+# What is Converse?
 
 TAIGER Converse is a Conversation AI Platform that allows you to build and manage Bots \(also known as Virtual Assistants\). Bots are autonomous, always-on representatives of your business that can help service your Customers or Employees needs across a wide variety of scenarios. For example, a HR Bot can be configured to help your employees process their expense claims and a Customer Support Bot can help answer frequently asked questions and reset a customer's account password.
 
