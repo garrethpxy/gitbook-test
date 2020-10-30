@@ -85,6 +85,7 @@ To do so:
 | Message Component | Language-specific Text Fields |
 | :--- | :--- |
 | Text Message | The single text field is editable |
+|  |  |
 
 ### Activating / Deactivating Language Variants
 
@@ -114,8 +115,6 @@ You should only change an Intent's Status to ARCHIVED if all Language Variants f
 #### Resolve to Existing or New Intent 
 
 The Unhandled Phrases will be resolved to the Training Phrases for the Intent's Language Variant. Other Language Variant's Training Phrases will not be affected.
-
-## 
 
 
 
