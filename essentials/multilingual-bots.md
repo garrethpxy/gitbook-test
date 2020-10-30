@@ -13,7 +13,7 @@ Currently, Converse supports the following languages, with more on the way.
 
 The **Language Selector** in the Navigation Bar allows you to manage a specific **Language Variant** for each Intent.
 
-![Use the Language Selector to choose the language](../.gitbook/assets/image%20%2811%29.png)
+![Use the Language Selector to choose the language](../.gitbook/assets/image%20%2813%29.png)
 
 ## Intent Language Variants
 
@@ -37,11 +37,54 @@ Language Variants allows us to edit only the Language-specific content of an Int
   * Each Language Variant has its own set of Training Phrases. Training Phrases must be written in the language of the Intent Language Variant.
 * Text Content within each Message Component
 
-## Base Language
+## Configuring Multilingual Intents
 
-Multilingual Bots have a Base Language, which is set to English by default.
+### Adding Training Phrases 
 
-## How to configure Intents in Multilingual Bots
+Each Language Variant has a set of Language-specific Training Phrases. You will need to configure a set of Training Phrases for each Language.
+
+1. Access the [Teaching Tool](teaching-your-bot.md#accessing-the-teaching-tool) 
+2. Set the [Language Selector](multilingual-bots.md#language-selector) to the desired Language 
+3. Add Training Phrases as described in [Teaching Your Bot](teaching-your-bot.md#adding-and-deleting-phrases)
+4. Train the Bot 
+
+#### Train the Bot in a specific Language
+
+After adding the Training Phrases for a specific language, you should [Train your Bot](teaching-your-bot.md#training-your-bot) so that it will learn from the newly added Training Phrases and become even better at interpreting user's intentions.
+
+**Important note: You can only train your Bot in one Language at a time.** 
+
+### **Configuring Bot Responses**
+
+#### Shared Conversation Flow Structure across Language Variants
+
+In Converse, Bot Responses between Language Variants will follow the same flow structure and each Dialog State will contain same Message Components. 
+
+&lt;screenshot&gt;
+
+This makes your Multilingual Bot easier to maintain, because you don't need to rebuild the Conversation structure for each Language Variant. However, this has some important side effects to note:
+
+* Adding or Removing a Dialog State will apply to all of the Intent's Language Variants
+* Adding or Removing a Message Component from a Dialog State will apply to all of the Intent's Language Variants
+
+#### Customize Text Fields per Language
+
+Naturally, the **Text Fields** within the Message Components can be customized per Language.
+
+&lt;screenshot&gt;
+
+To do so:
+
+1. Navigate to the Intent Editor for the Intent you want to edit
+2. Set the [Language Selector](multilingual-bots.md#language-selector) to the desired language 
+3. Change the Text Fields to the content in the current selected language
+4. Save the Changes
+
+#### Text Fields for each Message Component
+
+&lt;table&gt;
+
+## Step-By-Step
 
 The follow steps cover the process of creating an Intent that enables a Multilingual Bot to understand both English and Vietnamese Chat User inputs, and respond in the correct language. 
 
@@ -57,7 +100,7 @@ The same steps can be followed for any other pair of Bot Languages \(e.g. Englis
 
 To edit the English Variant of this Intent, ensure that the Bot Selector is set to English
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 Click on the "Phrases" button below the Intent Name to open the Phrase Panel. Add the English Training Phrases to this panel.
 
@@ -69,7 +112,7 @@ To build the bot response, we will use the [State Configuration Panel](intent-an
 
 In the Content Block, switch to the Modern Editor using Toggle shown below
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 
 
@@ -79,9 +122,11 @@ Add a Button List component
 
 Configure the Button List component like so:
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
-Test the Bot Out
+Test the Bot out on the Admin Chat with Quick-Test
+
+![](../.gitbook/assets/image%20%285%29.png)
 
 Switch Language Selector to the Vietnamese 
 
