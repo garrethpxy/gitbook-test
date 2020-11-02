@@ -29,13 +29,14 @@ Language Variants allows us to edit only the Language-specific content of an Int
   * Likewise, when an Intent's Conversation Flow is changed, all Language Variants are affected.
 * [Message Component](intent-and-dialog-building/editing-an-intent.md#modern-editor-message-components) within each Dialog State 
 
-#### **The following properties are language-specific, and can be configured per Language Variant:**
+#### **The following properties can be configured per Language Variant:**
 
 * [Intent Status](intent-and-dialog-building/change-an-intents-status.md#intent-statuses)
   * Each Language Variant can have its own Status. For example, an Intent's English Variant can be Activated while the Vietnamese Variant can be Inactive.
 * [Training Phrases](teaching-your-bot.md#adding-and-deleting-phrases)
-  * Each Language Variant has its own set of Training Phrases. Training Phrases must be written in the language of the Intent Language Variant.
-* Text Content within each Message Component
+  * Each Language Variant has its own set of Training Phrases. 
+* [Text Fields](multilingual-bots.md#language-specific-text-fields) within each Message Component.
+  * These allow you to configure the text content of bot responses for each language.
 
 ## Configuring Multilingual Intents
 
@@ -69,11 +70,13 @@ This makes your Multilingual Bot easier to maintain, because you don't need to r
 
 #### Language Specific Text Fields
 
-Naturally, the **Text Fields** within the Message Components can be customized per Language.
+The **Text Fields** within the Message Components can be customized per Language. 
+
+For example, the following green boxes in the Button List component:
 
 ![](../.gitbook/assets/image%20%2812%29.png)
 
-To do so:
+Follow these steps to change Text Fields to language specific content:
 
 1. Navigate to the Intent Editor for the Intent you want to edit
 2. Set the [Language Selector](multilingual-bots.md#language-selector) to the desired language 
