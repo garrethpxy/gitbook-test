@@ -120,13 +120,13 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">View Intents, Phrases, Libraries</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Create/Edit/Delete Intents, Phrases, Libraries for a Bot</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Train NLU</td>
@@ -151,19 +151,19 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">Edit Bot Name</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Manage Bot Libraries</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes if have Edit permissions on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes if have Edit permissions on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Manage Bot Administrators and Permissions</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes if have Owner permissions on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes if have Owner permissions on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -192,13 +192,13 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">View Unhandled Phrases</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Resolve / Mark Invalid / Revert</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Group Similar Phrases</td>
@@ -220,7 +220,7 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">View Ontology</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">
