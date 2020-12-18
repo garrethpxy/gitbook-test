@@ -20,7 +20,7 @@ When an Intent is triggered, the Bot replies to the Chat User with the Response 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&lt;b&gt;&lt;/b&gt;</th>
+      <th style="text-align:left"></th>
       <th style="text-align:left"></th>
     </tr>
   </thead>
@@ -52,6 +52,4 @@ When an Intent is triggered, the Bot replies to the Chat User with the Response 
     </tr>
   </tbody>
 </table>
-
-### 
 

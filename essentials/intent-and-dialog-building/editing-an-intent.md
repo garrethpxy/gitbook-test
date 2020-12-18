@@ -76,13 +76,13 @@ The State Configuration Panel contains State Blocks, each providing specific fun
 
 The functionality of each Block is executed in the same order as it is displayed on the UI. For example, the Service Action Block is executed before the Content Block. This means that data returned from the Service Action is accessible in the Content Block of the same State.
 
-#### **Service Action Block** 
+#### **Service Action Block**
 
-Using Service Action, you can create conversation flows that pull/push data from your database and backend systems. Conversation Data is stored in the [Conversation Context](conversation-context.md), which can be used to drive  conversation logic.
+Using Service Action, you can create conversation flows that pull/push data from your database and backend systems. Conversation Data is stored in the [Conversation Context](conversation-context.md), which can be used to drive conversation logic.
 
-Service Action allows you to call Converse Middleware Services or a Custom Webhook. See [Data Integrations](../../advanced/data-integrations.md) for a deep-dive into creating Converse Plugins or a Webhook. 
+Service Action allows you to call Converse Middleware Services or a Custom Webhook. See [Data Integrations](../../advanced/data-integrations.md) for a deep-dive into creating Converse Plugins or a Webhook.
 
-**1\)  Service**
+**1\) Service**
 
 Displays a list of available Services installed on the Converse Middleware. If "Webhook URL \(Custom\)" is selected, then the system expects a data payload that follows the specification found in [Configuring a Webhook Connector](../../advanced/data-integrations.md#configuring-a-webhook-connector).
 
@@ -172,7 +172,7 @@ The Outputs specify the data that the Function can return after it is executed s
 
 #### **Service Action Timeout**
 
-Service Action will wait up to 5 seconds before timing out. If you wish to configure the timeout value, please contact TAIGER Support.
+Service Action will wait up to 5 seconds before timing out. If you wish to configure the timeout value, please contact your administrator.
 
 #### **Detecting a successful call and handling errors**
 
@@ -202,10 +202,12 @@ The Content block allows you to configure what your Bot says to the user.
 We provide 2 Editors:
 
 * **Legacy Editor:**
+
   * Supports HTML formatting \(bold, italics, etc\)
   * Not compatible with upcoming chat channels like Facebook Messenger
   * Does not support new features like Carousel and Button List
-* **Modern Editor:**
+
+* **Modern Editor \(Recommended\):**
   * Supports all new Message Components
   * Immediately compatible with Facebook Messenger
   * Does not support HTML formatting
@@ -252,7 +254,6 @@ We currently support the following components:
         <ul>
           <li>A Text Message</li>
           <li>Up to 13 Quick Reply buttons</li>
-          <li>Button Name must be less than 20 characters</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -267,7 +268,6 @@ We currently support the following components:
         <ul>
           <li>A Text Message</li>
           <li>Up to 5 buttons</li>
-          <li>Button Name must be less than 20 characters</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -284,7 +284,6 @@ We currently support the following components:
           <li>A Title</li>
           <li>A Description</li>
           <li>Up to 5 buttons</li>
-          <li>Button Name must be less than 20 characters</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -334,11 +333,15 @@ The Button Type allows Bot Admins to configure what clicking on the Button/Quick
 
 #### Button Concept
 
-Set an _Ontology Concept_ on the Button to allow it to be triggered by Text Input. If a new Ontology Concept is created, the Synonym Editor will pop up. Bot Admins can define Synonyms of the Concept, which help the Bot match user inputs to the Ontology Concept.
+Set an _Ontology Concept_ on the Button to allow it to be triggered by Text Input. If a new Ontology Concept is created, the _Synonym Editor_ will pop up. Bot Admins can define Synonyms of the Concept, which help the Bot match user inputs to the Ontology Concept.
 
 ![](../../.gitbook/assets/54.png)
 
 When a Chat User sends an input that matches any Synonym of the Button's Ontology Concept, the Button is triggered as though it was clicked.
+
+If you want to change the synonyms, you can open the Synonym Editor again by clicking on the selected Concept Tag in the text input field \(see below\)
+
+![Open the Synonym Editor by clicking on the selected Concept Tag](../../.gitbook/assets/ezgif-3-ca0cd123e4ca.gif)
 
 #### **Typing Delay**
 
@@ -433,7 +436,7 @@ Use this configuration to collect data from the Chat User. Data collected is sto
   <thead>
     <tr>
       <th style="text-align:left">
-        <p><b>Basic Usage Example: </b>
+        <p><b>Basic Usage Example:</b>
         </p>
         <p><b>Scenario Collecting Email from a User</b>
         </p>
@@ -617,13 +620,10 @@ Dialog Settings allow Bot Admins to configure advanced dialog behaviors. These s
     <tr>
       <td style="text-align:left">Jump Intent</td>
       <td style="text-align:left">
-        <p></p>
         <p>If this is configured, then when this State is triggered, the Chat User
           is brought to the specified Intent&apos;s Flow.</p>
-        <p></p>
         <p>We recommend using Trigger Intent functionality found in Button/QuickReply
           and Transitions (available in v2.6.0+).</p>
-        <p></p>
         <p>Important Notes:</p>
         <ul>
           <li>If Jump is setup, the Content configuration in the State is <b>ignored</b>

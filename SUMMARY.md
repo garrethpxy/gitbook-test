@@ -1,10 +1,10 @@
 # Table of contents
 
-* [TAIGER Converse User Guide v2.6.0](README.md)
+* [TAIGER Converse User Guide v2.8.0](README.md)
 
 ## Essentials
 
-* [Introduction](essentials/key-concepts.md)
+* [What is Converse?](essentials/key-concepts.md)
 * [Signing In and Out](essentials/signing-in-and-out.md)
 * [Libraries and Intent Management](essentials/libraries-and-intent-management.md)
 * [Intent & Content Building](essentials/intent-and-dialog-building/README.md)
@@ -19,6 +19,7 @@
 * [Common Space](essentials/common-space.md)
 * [Bot Management](essentials/bot-management.md)
 * [User & Roles Management](essentials/user-and-roles-management.md)
+* [Multilingual Bots](essentials/multilingual-bots.md)
 
 ## Advanced
 

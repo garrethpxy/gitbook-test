@@ -36,7 +36,7 @@ Click on the "..." menu button on the top-left of the Admin Chat header, and the
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Inspect</b>  <a href="editing-an-intent.md#service-action-block">Service Action</a><b> Inputs and Outputs</b>
+        <p><b>Inspect</b>  <a href="editing-an-intent.md#service-action-block">Service Action</a>  <b>Inputs and Outputs</b>
         </p>
         <p>When executing external services via Service Action, it is useful to see
           what is being sent to the Service as <em>Inputs</em> and what is being returned

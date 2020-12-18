@@ -2,11 +2,11 @@
 
 ## What is an Intent?
 
-An Intent is a fundamental unit in Converse. It represents a piece of information the users can ask for, contains associated answers, and a part of a dialog. It is an intention conveyed in a user message which triggers some action. Each intent triggers a direct answer or guided conversational flow. A guided conversational flow is a series of actions linked together with a set of conditions and triggers another state of action \(see [Intent & Content Building](intent-and-dialog-building/)\)
+An Intent is a fundamental unit in Converse. It represents a piece of information the users can ask for, contains associated answers, and a part of a dialog. It is an intention conveyed in a user message which triggers some action. Each intent triggers a direct answer or guided conversational flow. A guided conversational flow is a series of actions linked together with a set of conditions and triggers another state of action \(see [Intent & Content Building](intent-and-dialog-building/#introduction-to-intents)\)
 
 ## What is a Library?
 
-Libraries are similar to folders where Intents can be kept and organized. You can create new Libraries at any time, and move Intents between them. 
+Libraries are similar to folders where Intents can be kept and organized. You can create new Libraries at any time, and move Intents between them.
 
 It is good practice to name Libraries based on sub-domains of knowledge. For example, a Bot covering the Human Resources domain, there may be Libraries for Recruitment, Onboarding, Leave Policy, and so on.
 
@@ -253,11 +253,9 @@ Notes:
 
 ![](../.gitbook/assets/17.png)
 
-3. Select the status of the Intent after the import is complete.
-
-* Draft - the Content only accessible on the Admin Chat UI, and is not visible to the Public
-* Published - the Intent is immediately available for use on the Public Chat UI
-
+1. Select the status of the Intent after the import is complete.
+2. Draft - the Content only accessible on the Admin Chat UI, and is not visible to the Public
+3. Published - the Intent is immediately available for use on the Public Chat UI
 4. Drag the Excel file containing the Q&A into the dotted box outline or click browse to upload the file.
 
 Before you upload a file:
@@ -265,26 +263,23 @@ Before you upload a file:
 * Ensure the content label is always present at the top of the column. For example, “Question”.
 * Ensure that the content label form has not been changed.
 * Ensure not to upload an empty document.![](../.gitbook/assets/18.png)
-
-5. Click ![](../.gitbook/assets/19.png). A new window displays the following:
-
+* Click ![](../.gitbook/assets/19.png). A new window displays the following:
 * Bulk Import displays the uploaded excel file
 * Intents imported with conflicting question text with other intents
 * Preview of the list of imported intents for review
 
 ![](../.gitbook/assets/20.png)
 
-6. If there are conflicting question text with other intents, follow the instructions to resolve the conflicts.
+1. If there are conflicting question text with other intents, follow the instructions to resolve the conflicts.
 
 ![](../.gitbook/assets/21.png)
 
-7. Click Continue.
-
-8. Review the content that you want to add in the library. 
+1. Click Continue.
+2. Review the content that you want to add in the library.
 
 ![](../.gitbook/assets/22.png)
 
-8. A "Creating Intent" notification banner appears while the intents are being imported. Once done, the banner will disappear and your Intents would be imported successfully. ![](../.gitbook/assets/23.png)
+1. A "Creating Intent" notification banner appears while the intents are being imported. Once done, the banner will disappear and your Intents would be imported successfully. ![](../.gitbook/assets/23.png)
 
 ## Teaching View
 
@@ -293,6 +288,4 @@ The Teaching View is where you can train the bot with various phrases to match u
 In this view, displays a list of all the questions, answers, and added phrases that belong to that intent. You can also Teach the Bot to understand new variations of user input using the Teaching Tool.
 
 Usage of the Teaching Tool and related functions is explored in depth in [Teaching Your Bot](teaching-your-bot.md).
-
-## 
 

@@ -16,7 +16,7 @@ There are two Common Library Types
 * "Restricted" Type - Only specified Contributors can share to these Libraries
 * "Open" Type - Any Bot Admin can share Intents to these Libraries
 
-Each Library Type can also be given a custom name, e.g. "Policy" Library or "Community" Library.
+Each Library Type can also be given a custom name, e.g. "Managed" Library or "Community" Library.
 
 Converse supports creating any number of Restricted and Open Library types. This needs to be set up at deployment time. Please contact a TAIGER or TAIGER Technical Partner representative for more information.
 
@@ -63,10 +63,9 @@ Select Bot & Library
 
 1. Select the bot and library you would like to export the selected intents to
 2. Configure the settings for the import
-
-* Auto-Sync - Turn on if you want the exported intent to be automatically updated if the original intents are updated.
-* Follow Intents - Turn on to receive notifications should there be any changes made to the original intents.
-* Publish Immediately - Turn on to activate intents immediately after they have been added to your bot.
+3. Auto-Sync - Turn on if you want the exported intent to be automatically updated if the original intents are updated.
+4. Follow Intents - Turn on to receive notifications should there be any changes made to the original intents.
+5. Publish Immediately - Turn on to activate intents immediately after they have been added to your bot.
 
 ![](../.gitbook/assets/168.png)
 
