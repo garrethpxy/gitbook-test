@@ -1,19 +1,19 @@
 {
-  "name": "gitbook-test",
+  "name": "converse-docs",
   "version": "1.0.0",
-  "description": "--- description: To be broken up into separate pages... ---",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garrethpxy/gitbook-test.git"
+    "url": "git+https://github.com/garrethpxy/converse-docs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/garrethpxy/gitbook-test/issues"
+    "url": "https://github.com/garrethpxy/converse-docs/issues"
   },
-  "homepage": "https://github.com/garrethpxy/gitbook-test#readme"
+  "homepage": "https://github.com/garrethpxy/converse-docs#readme"
 }
