@@ -249,7 +249,7 @@ Notes:
 ### **Import Intents via Excel**
 
 1. Select Library you wish to import into from the Library Side Panel.
-2. Click on the ![](../.gitbook/assets/16.png) button. The Import popup for configuration and excel uploading will be displayed.
+2. Click on the ![](../.gitbook/assets/15%20%281%29.png) button. The Import popup for configuration and excel uploading will be displayed.
 
 ![](../.gitbook/assets/17.png)
 
