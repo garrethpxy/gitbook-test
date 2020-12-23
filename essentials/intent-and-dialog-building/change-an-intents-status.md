@@ -8,7 +8,7 @@
 | INACTIVE | This is the default Status when an Intent is just created | Yes | Yes | No |
 | ARCHIVED | Only Archived Intents can be deleted | No | No | No |
 
-#### **Intent Status Display**
+### **Intent Status Display**
 
 The Intent's Status can be viewed from the Intent Dashboard, in the Intent Listing table
 

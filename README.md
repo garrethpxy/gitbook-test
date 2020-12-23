@@ -2,7 +2,3 @@
 
 ![](.gitbook/assets/0.png)
 
-\*\*\*\*
-
-
-

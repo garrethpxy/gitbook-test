@@ -72,8 +72,6 @@ As multiple Unhandled Phrases can have the same meaning, they should be resolved
 
 ![](../.gitbook/assets/127.png)
 
-#### 
-
 ### Resolving by Adding to Existing Intent
 
 To resolve the selected unhandled phrases within each group, select the ![](../.gitbook/assets/128.png)button on the top-right corner of the group. A pop-up window is displayed with the following sections:
@@ -83,7 +81,7 @@ To resolve the selected unhandled phrases within each group, select the ![](../.
 
 ![](../.gitbook/assets/129.png)
 
-The **Add phrase to existing intent** option will be selected by default. For this option, the system will suggest a list of existing intents segregated into 3 categories to choose from. 
+The **Add phrase to existing intent** option will be selected by default. For this option, the system will suggest a list of existing intents segregated into 3 categories to choose from.
 
 * Suggested by AI – This intent is suggested by the system \(AI engine\).
 * Suggested both by User & AI – This intent is suggested by the system based on user feedback.

@@ -186,16 +186,6 @@ The deflection rate is calculated by comparing the conversations that had occurr
 
 ![](../.gitbook/assets/145.png)
 
-#### 
-
-#### 
-
-#### 
-
-#### 
-
-#### 
-
 ## Conversations
 
 This component captures the conversation with users, alongside with metadata such as conversation ID, start, end, duration of conversation. Conversations can be filtered by clicking on the ![](../.gitbook/assets/146.png) button. You can also mass export all conversation data as an excel spreadsheet by clicking on the ![](../.gitbook/assets/147.png)button.

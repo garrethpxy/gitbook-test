@@ -58,9 +58,9 @@ To embed the bot to another HTML page:
 
 1. Now, open the HTML file to a web browser and the new bot displays.
 
-![A screenshot of a cell phone
+!\[A screenshot of a cell phone
 
-Description automatically generated](../.gitbook/assets/199.png)
+Description automatically generated\]\(../.gitbook/assets/199.png\)
 
 ## Bot Options
 
@@ -130,7 +130,7 @@ These are the options available for editing:
 
 Use this value to override the Bot Name used throughout the chat interface.
 
- ![](../.gitbook/assets/205.png)![](../.gitbook/assets/206.png)
+![](../.gitbook/assets/205.png)![](../.gitbook/assets/206.png)
 
 #### **Input Placeholder**
 
@@ -251,8 +251,6 @@ You can preview the newly uploaded image under the Preview Section.
 1. Click ![](../.gitbook/assets/215.png) to save the uploaded image. Otherwise, click cancel.
 
 ![](../.gitbook/assets/216.png)
-
-#### 
 
 ### Landing Page
 

@@ -112,7 +112,7 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>Manage Bot Content </b>
+      <td style="text-align:left"><b>Manage Bot Content</b>
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
