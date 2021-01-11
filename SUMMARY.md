@@ -1,6 +1,10 @@
 # Table of contents
 
-* [TAIGER Converse User Guide v2.8.0](README.md)
+* [Omnitive Converse User Guide v2.8.0](README.md)
+
+## Getting Started
+
+* [What is a chatbot](getting-started/what-is-a-chatbot.md)
 
 ## Essentials
 

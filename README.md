@@ -1,8 +1,10 @@
-# TAIGER Converse User Guide v2.8.0
+# Omnitive Converse User Guide v2.8.0
 
-![](.gitbook/assets/0.png)
 
-\*\*\*\*
+
+## **What is Converse?**
+
+## **What does Converse offer?**
 
 
 
