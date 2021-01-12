@@ -7,7 +7,7 @@
 * [Accessing Converse](getting-started/signing-in-and-out.md)
 * [Terminology](getting-started/terminology.md)
 
-## Essentials
+## Admin Essentials <a id="essentials"></a>
 
 * [Libraries and Intent Management](essentials/libraries-and-intent-management.md)
 * [Intent & Content Building](essentials/intent-and-dialog-building/README.md)
@@ -24,7 +24,7 @@
 * [User & Roles Management](essentials/user-and-roles-management.md)
 * [Multilingual Bots](essentials/multilingual-bots.md)
 
-## Advanced
+## Admin Advanced <a id="advanced"></a>
 
 * [Building Transactional Flows](advanced/building-transactional-flows.md)
 * [Collect User Input using Variable Capture \(NER\)](advanced/collect-user-input-using-variable-capture-ner.md)

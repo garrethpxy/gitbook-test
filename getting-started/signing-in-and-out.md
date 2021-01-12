@@ -1,6 +1,6 @@
 # Accessing Converse
 
-Omnitive Converse is a web-based application which enables Bot Admin to develop conversational Bots that will provide answers to common queries and also to complete simple workflows on behalf of the users.
+Omnitive Converse is a web-based application which enables Bot Admin to develop conversational Chatbots. A Chatbot will be able to provide answers to common queries, and also to complete simple workflows on behalf of the users.
 
 ## Signing In
 
