@@ -1,15 +1,14 @@
 # Table of contents
 
-* [Omnitive Converse User Guide v2.8.0](README.md)
+* [Omnitive Converse v2.8.0](README.md)
 
 ## Getting Started
 
-* [What is a chatbot](getting-started/what-is-a-chatbot.md)
+* [Accessing Converse](getting-started/signing-in-and-out.md)
+* [Terminology](getting-started/terminology.md)
 
 ## Essentials
 
-* [What is Converse?](essentials/key-concepts.md)
-* [Signing In and Out](essentials/signing-in-and-out.md)
 * [Libraries and Intent Management](essentials/libraries-and-intent-management.md)
 * [Intent & Content Building](essentials/intent-and-dialog-building/README.md)
   * [Create an Intent](essentials/intent-and-dialog-building/create-an-intent.md)
