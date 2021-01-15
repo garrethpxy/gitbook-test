@@ -81,6 +81,11 @@ The following metrics are covered and shown as “cards” on the chatbot perfor
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">Chatbot Rating</td>
+      <td style="text-align:left">Higher is better</td>
+      <td style="text-align:left">The average chatbot rating received</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Total Fallback Count</td>
       <td style="text-align:left">Lower is better</td>
       <td style="text-align:left">The total number of instances where the system was not able to understand
@@ -180,6 +185,16 @@ The deflection rate is calculated by comparing the conversations that had occurr
 </table>
 
 ![](../.gitbook/assets/145.png)
+
+#### 
+
+#### 
+
+#### 
+
+#### 
+
+#### 
 
 ## Conversations
 
