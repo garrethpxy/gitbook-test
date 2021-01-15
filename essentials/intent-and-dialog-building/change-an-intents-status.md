@@ -22,7 +22,7 @@ It can also be viewed in the header section of the Intent Editor page for a spec
 
 You should make the majority of content edits to your Intent while it is still INACTIVE.
 
-Once the Intent is ready to be shown to the Public, click on the "Activate Intent" button in the Intent Editor page![](../../.gitbook/assets/62.png)
+Once the Intent is ready to be shown to the Public, click on the "Activate Intent" button in the Intent Editor page![](../../.gitbook/assets/62%20%281%29.png)
 
 Now, you will be able to trigger this Intent from the Public Chat UI.
 
