@@ -24,7 +24,7 @@ Converse supports creating any number of Restricted and Open Library types. This
 
 ### Creating Common Libraries
 
-1. Navigate to the ![](../.gitbook/assets/158.png) tab of the navigation bar.
+1. Navigate to the ![](../.gitbook/assets/166%20%281%29.png) tab of the navigation bar.
 2. Select the ![](../.gitbook/assets/159.png)on the library side panel. The following Popup will appear:![](../.gitbook/assets/160.png)
 3. Fill in the library name and assign the intended library type. The library type shown depends on what was configured beforehand \(see [Common Library Types](common-space.md#common-library-types)\)
 4. Click ![](../.gitbook/assets/161.png)

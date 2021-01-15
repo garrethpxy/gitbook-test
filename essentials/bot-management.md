@@ -17,7 +17,7 @@ A list of existing bots will appear. To manage a bot, click on its name. You wil
 To create a new bot:
 
 1. On the Bot Manager page, click ![](../.gitbook/assets/184.png). A pop-up window will be displayed asking for the Bot Name.
-2. Enter the name in the **Bot Name** field and click on ![](../.gitbook/assets/185.png).
+2. Enter the name in the **Bot Name** field and click on ![](../.gitbook/assets/241.png).
 
 ![](../.gitbook/assets/186.png)
 
@@ -26,7 +26,7 @@ To create a new bot:
 
 ![](../.gitbook/assets/190.png)
 
-After clicking ![](../.gitbook/assets/191.png) or pasting the link into another browser tab, the bot will appear as shown below.
+After clicking ![](../.gitbook/assets/188%20%281%29.png) or pasting the link into another browser tab, the bot will appear as shown below.
 
 ![](../.gitbook/assets/192.png)
 
@@ -35,7 +35,7 @@ After clicking ![](../.gitbook/assets/191.png) or pasting the link into another 
 To editing bot name, simply navigate to the
 
 1. Select the bot from the bot manager page to navigate to the Edit Bot page.
-2. Click on the![](../.gitbook/assets/193.png)icon beside the bot name to enable editing.
+2. Click on the![](../.gitbook/assets/187%20%281%29.png)icon beside the bot name to enable editing.
 
 ![](../.gitbook/assets/194.png)
 
@@ -246,7 +246,7 @@ To upload a new avatar image:
 
 You can preview the newly uploaded image under the Preview Section.
 
-1. Click ![](../.gitbook/assets/215.png) to save the uploaded image. Otherwise, click cancel.
+1. Click ![](../.gitbook/assets/215%20%281%29.png) to save the uploaded image. Otherwise, click cancel.
 
 ![](../.gitbook/assets/216.png)
 
@@ -258,7 +258,7 @@ The tab where you can customize the Public Chat UI landing page.
 
 1. Use the HTML and CSS editor to add your code for the landing page.
 2. Toggle Turn On to switch if you want the landing page to appear in the chat UI.
-3. Click ![](../.gitbook/assets/217.png).
+3. Click ![](../.gitbook/assets/215.png).
 
 ![](../.gitbook/assets/218.png)
 

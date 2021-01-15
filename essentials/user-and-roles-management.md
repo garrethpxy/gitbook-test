@@ -17,7 +17,7 @@ To access the settings for User & Roles Management:
 
 ![](../.gitbook/assets/240.png)
 
-1. Complete the form and click on ![](../.gitbook/assets/241.png) to create the new user.
+1. Complete the form and click on ![](../.gitbook/assets/241%20%281%29.png) to create the new user.
 
 ## View User
 
