@@ -30,7 +30,7 @@ Great, you've successfully created your first Intent!
 
 To force-trigger an Intent, you can click the Quick-Test ![](../../.gitbook/assets/33.png) button at Intent Editor's top section, which will trigger the Intent in the Admin Chat UI as shown below:
 
-![](../../.gitbook/assets/34.png)
+![](../../.gitbook/assets/62.png)
 
 This will trigger the Intent in the Admin Chat UI, as though a Chat User had asked a question and triggered this Intent.
 

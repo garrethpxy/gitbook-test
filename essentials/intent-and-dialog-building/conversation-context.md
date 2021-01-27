@@ -2,9 +2,27 @@
 
 In simple terms, the Conversation Context can be seen as the "short term memory" of the chatbot when it is having a conversation with a Chat User.
 
-## Usage Scenario: **Data Collection**
+## Usage Scenario: Replying based on Contextual Memory
 
 Having this "Short Term Memory" is essential when engaging in conversation, because it allows the Bot to remember and use information previously provided by the Chat User.
+
+1. Create Tag as the subject of the intended conversation and assigned it to the related intents
+
+![](../../.gitbook/assets/intent-with-apple-tag.png)
+
+![](../../.gitbook/assets/screenshot-2020-12-18-at-4.06.03-pm.png)
+
+2. Teach the Bot with phrases containing the subject Tag created for the intents \(e.g. \#Apples are added as the Tag to the intent, and the phrases taught to it will contains the word apple.\) 
+
+![](../../.gitbook/assets/screenshot-2020-12-18-at-4.07.56-pm.png)
+
+3. The Bot will now store the subject \(e.g. _Apple_\) in the context and will used it in providing appropriate answers without the need for Chat User to specific it in the query.  
+
+![](../../.gitbook/assets/contextual-memory-eg.png)
+
+## Usage Scenario: **Data Collection**
+
+The Conversation Context is able to store data entered by the Chat User during the conversation.
 
 ![](../../.gitbook/assets/63.png)
 

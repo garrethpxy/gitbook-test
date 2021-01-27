@@ -17,7 +17,7 @@ A list of existing bots will appear. To manage a bot, click on its name. You wil
 To create a new bot:
 
 1. On the Bot Manager page, click ![](../.gitbook/assets/184.png). A pop-up window will be displayed asking for the Bot Name.
-2. Enter the name in the **Bot Name** field and click on ![](../.gitbook/assets/185.png).
+2. Enter the name in the **Bot Name** field and click on ![](../.gitbook/assets/241.png).
 
 ![](../.gitbook/assets/186.png)
 
@@ -26,7 +26,7 @@ To create a new bot:
 
 ![](../.gitbook/assets/190.png)
 
-After clicking ![](../.gitbook/assets/191.png) or pasting the link into another browser tab, the bot will appear as shown below.
+After clicking ![](../.gitbook/assets/188%20%281%29.png) or pasting the link into another browser tab, the bot will appear as shown below.
 
 ![](../.gitbook/assets/192.png)
 
@@ -35,7 +35,7 @@ After clicking ![](../.gitbook/assets/191.png) or pasting the link into another 
 To editing bot name, simply navigate to the
 
 1. Select the bot from the bot manager page to navigate to the Edit Bot page.
-2. Click on the![](../.gitbook/assets/193.png)icon beside the bot name to enable editing.
+2. Click on the![](../.gitbook/assets/187%20%281%29.png)icon beside the bot name to enable editing.
 
 ![](../.gitbook/assets/194.png)
 
@@ -50,17 +50,13 @@ To embed the bot to another HTML page:
 1. Select the bot from the bot manager page to navigate to the Edit Bot page.
 2. Copy the Chat Widget Embedding Code Snippet in the **Embedding Instructions** section by clicking on the ![](../.gitbook/assets/196.png)button.
 
-![](../.gitbook/assets/197.png)
+![](../.gitbook/assets/screenshot-2020-12-18-at-3.17.01-pm.png)
 
-1. Paste the code after the &lt;HEAD&gt; tag of the HTML page and before `<HEAD>`tag.
+3. Paste the code after the `<BODY>`tag of the HTML page and before `<BODY>`tag.
 
-![](../.gitbook/assets/198.png)
+![](../.gitbook/assets/screenshot-2020-12-18-at-3.20.42-pm.png)
 
-1. Now, open the HTML file to a web browser and the new bot displays.
-
-!\[A screenshot of a cell phone
-
-Description automatically generated\]\(../.gitbook/assets/199.png\)
+4. Now, open the HTML file to a web browser and the new bot displays.
 
 ## Bot Options
 
@@ -112,9 +108,7 @@ The area where you assign roles and permissions for access to the bot. By defaul
 
 ### Default Bot Configuration
 
-{% hint style="info" %}
-This section requires technical understanding of JSON syntax to use properly.
-{% endhint %}
+> Note: This section requires technical understanding of JSON syntax to use properly.
 
 Here you can update the bot configuration which controls the Bot's behavior and functionality.
 
@@ -248,21 +242,19 @@ To upload a new avatar image:
 
 You can preview the newly uploaded image under the Preview Section.
 
-1. Click ![](../.gitbook/assets/215.png) to save the uploaded image. Otherwise, click cancel.
+1. Click ![](../.gitbook/assets/215%20%281%29.png) to save the uploaded image. Otherwise, click cancel.
 
 ![](../.gitbook/assets/216.png)
 
 ### Landing Page
 
-{% hint style="info" %}
-This section requires basic technical knowledge of HTML and CSS.
-{% endhint %}
+> **Note:** This section requires basic technical knowledge of HTML and CSS.
 
 The tab where you can customize the Public Chat UI landing page.
 
 1. Use the HTML and CSS editor to add your code for the landing page.
 2. Toggle Turn On to switch if you want the landing page to appear in the chat UI.
-3. Click ![](../.gitbook/assets/217.png).
+3. Click ![](../.gitbook/assets/215.png).
 
 ![](../.gitbook/assets/218.png)
 

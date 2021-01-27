@@ -1,10 +1,8 @@
 # User & Roles Management
 
-User and Role management are done on the KPO Platform, which Converse sits on.
+User and Role management are done on the Omnitive Platform, which Converse sits on.
 
-{% hint style="info" %}
-Note: You need to have the Super Admin role to access the functionalities in this section.
-{% endhint %}
+> **Note**: You need to have the Admin role for the Omnitive Platform to access the functionalities in this section.
 
 To access the settings for User & Roles Management:
 
@@ -19,7 +17,7 @@ To access the settings for User & Roles Management:
 
 ![](../.gitbook/assets/240.png)
 
-1. Complete the form and click on ![](../.gitbook/assets/241.png) to create the new user.
+1. Complete the form and click on ![](../.gitbook/assets/241%20%281%29.png) to create the new user.
 
 ## View User
 
@@ -71,17 +69,14 @@ The breakdown of the roles and access rights will be covered in more detail in t
   <thead>
     <tr>
       <th style="text-align:left">Access Rights</th>
-      <th style="text-align:left"><b>Super Admin</b>
-      </th>
-      <th style="text-align:left"><b>Admin</b>
-      </th>
-      <th style="text-align:left"><b>User</b>
-      </th>
+      <th style="text-align:left">Administrator</th>
+      <th style="text-align:left">User</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">
+        <p></p>
         <p>User Management</p>
         <ul>
           <li>Create User</li>
@@ -91,10 +86,10 @@ The breakdown of the roles and access rights will be covered in more detail in t
       </td>
       <td style="text-align:left">Full Access</td>
       <td style="text-align:left">No Access</td>
-      <td style="text-align:left">No Access</td>
     </tr>
     <tr>
       <td style="text-align:left">
+        <p></p>
         <p>Account Settings</p>
         <ul>
           <li>Set Username</li>
@@ -102,15 +97,24 @@ The breakdown of the roles and access rights will be covered in more detail in t
         </ul>
       </td>
       <td style="text-align:left">Full Access</td>
-      <td style="text-align:left">Full Access</td>
-      <td style="text-align:left">Full Access</td>
+      <td style="text-align:left">No Access</td>
     </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left">Analytics (all functionality included)</td>
-      <td style="text-align:left">Full Access for All Bots</td>
-      <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left">Yes, if have View Permission on Bot</td>
+      <th style="text-align:left">Access Rights</th>
+      <th style="text-align:left"><b>Org Admin</b>
+      </th>
+      <th style="text-align:left"><b>Admin</b>
+      </th>
+      <th style="text-align:left"><b>User</b>
+      </th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <td style="text-align:left"><b>Manage Bot Content</b>
       </td>
@@ -122,13 +126,13 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">View Intents, Phrases, Libraries</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Create/Edit/Delete Intents, Phrases, Libraries for a Bot</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Train NLU</td>
@@ -153,19 +157,19 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">Edit Bot Name</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Manage Bot Libraries</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes if have Edit permissions on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes if have Edit permissions on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Manage Bot Administrators and Permissions</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes if have Owner permissions on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes if have Owner permissions on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -194,13 +198,13 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">View Unhandled Phrases</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Resolve / Mark Invalid / Revert</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have Edit Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">Group Similar Phrases</td>
@@ -222,7 +226,7 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">View Ontology</td>
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -248,6 +252,19 @@ The breakdown of the roles and access rights will be covered in more detail in t
       <td style="text-align:left">Full Access for All Bots</td>
       <td style="text-align:left">Yes, if have View Permission on Bot</td>
       <td style="text-align:left">No Access</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Analytics</b>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Analytics (all functionality included)</td>
+      <td style="text-align:left">Full Access for All Bots</td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
+      <td style="text-align:left">Yes, if have View Permission on Bot</td>
     </tr>
   </tbody>
 </table>

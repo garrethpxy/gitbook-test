@@ -24,8 +24,8 @@ This guide provides instructions for building a Flow that provides available Hot
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Step Description</th>
+      <th style="text-align:left">Example</th>
     </tr>
   </thead>
   <tbody>
