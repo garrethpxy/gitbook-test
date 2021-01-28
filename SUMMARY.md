@@ -27,6 +27,7 @@
 ## Admin Advanced <a id="advanced"></a>
 
 * [Building Transactional Flows](advanced/building-transactional-flows.md)
+* [Collecting User Inputs using Slot Filling](advanced/collecting-user-inputs-using-slot-filling.md)
 * [Collect User Input using Variable Capture \(NER\)](advanced/collect-user-input-using-variable-capture-ner.md)
 * [Ontology Management](advanced/ontology-management.md)
 * [Data Integrations](advanced/data-integrations.md)
