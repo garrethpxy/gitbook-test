@@ -1,11 +1,14 @@
 # Table of contents
 
-* [TAIGER Converse User Guide v2.6.0](README.md)
+* [Omnitive Converse v2.8.0](README.md)
 
-## Essentials
+## Getting Started
 
-* [Introduction](essentials/key-concepts.md)
-* [Signing In and Out](essentials/signing-in-and-out.md)
+* [Accessing Converse](getting-started/signing-in-and-out.md)
+* [Terminology](getting-started/terminology.md)
+
+## Admin Essentials <a id="essentials"></a>
+
 * [Libraries and Intent Management](essentials/libraries-and-intent-management.md)
 * [Intent & Content Building](essentials/intent-and-dialog-building/README.md)
   * [Create an Intent](essentials/intent-and-dialog-building/create-an-intent.md)
@@ -19,8 +22,9 @@
 * [Common Space](essentials/common-space.md)
 * [Bot Management](essentials/bot-management.md)
 * [User & Roles Management](essentials/user-and-roles-management.md)
+* [Multilingual Bots](essentials/multilingual-bots.md)
 
-## Advanced
+## Admin Advanced <a id="advanced"></a>
 
 * [Building Transactional Flows](advanced/building-transactional-flows.md)
 * [Collect User Input using Variable Capture \(NER\)](advanced/collect-user-input-using-variable-capture-ner.md)
