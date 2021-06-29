@@ -8,7 +8,7 @@
 | INACTIVE | This is the default Status when an Intent is just created | Yes | Yes | No |
 | ARCHIVED | Only Archived Intents can be deleted | No | No | No |
 
-### **Intent Status Display**
+#### **Intent Status Display**
 
 The Intent's Status can be viewed from the Intent Dashboard, in the Intent Listing table
 
@@ -22,7 +22,7 @@ It can also be viewed in the header section of the Intent Editor page for a spec
 
 You should make the majority of content edits to your Intent while it is still INACTIVE.
 
-Once the Intent is ready to be shown to the Public, click on the "Activate Intent" button in the Intent Editor page![](../../.gitbook/assets/62.png)
+Once the Intent is ready to be shown to the Public, click on the "Activate Intent" button in the Intent Editor page![](../../.gitbook/assets/62%20%281%29.png)
 
 Now, you will be able to trigger this Intent from the Public Chat UI.
 

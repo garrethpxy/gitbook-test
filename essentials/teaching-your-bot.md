@@ -87,7 +87,7 @@ Here are the available statuses and their meanings:
         <p>The Phrase is triggering the wrong Intent. This should never happen if
           the system is working correctly.</p>
         <p>Steps to rectify: Click &quot;Test All Phrases&quot; and see if the Status
-          was updated incorrectly. If the error persists, please contact TAIGER support.</p>
+          was updated incorrectly. If the error persists, please contact your administrator.</p>
       </td>
     </tr>
   </tbody>

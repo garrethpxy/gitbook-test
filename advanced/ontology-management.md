@@ -10,7 +10,7 @@ The Ontology view will be loaded as such:
 
 ![](../.gitbook/assets/222.png)
 
-**Note:** if you do not see a list of Classes, you may need to Load Ontology \(see [10.2 Load Ontology](ontology-management.md)\)
+**Note:** if you do not see a list of Classes, you may need to Load Ontology \(see [10.2 Load Ontology]()\)
 
 ## Load Ontology
 
@@ -33,11 +33,14 @@ You can create a new Individual for a Class by:
 1. Click on one of the Classes in the list
 2. Click on the "+ Create New Individual" button
 3. In the "Create an Individual pane" that opens, specify
-4. **\#label \(required\)**: The unique identifier of the Ontology element
-5. **\#altLabel \(optional\)**: A list of synonyms or related words to describe this Ontology Element. You can add more than one by clicking on "+ Add new Value"
-6. **\#definition \(optional\)**: Detailed descriptions of this Ontology element
+
+* **\#label \(required\)**: The unique identifier of the Ontology element
+* **\#altLabel \(optional\)**: A list of synonyms or related words to describe this Ontology Element. You can add more than one by clicking on "+ Add new Value"
+* **\#definition \(optional\)**: Detailed descriptions of this Ontology element
 
 ![Example of Ontology &quot;Individual&quot; creation ](../.gitbook/assets/225.png)
+
+
 
 Now click Click "Save"
 

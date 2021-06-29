@@ -16,7 +16,7 @@ There are two Common Library Types
 * "Restricted" Type - Only specified Contributors can share to these Libraries
 * "Open" Type - Any Bot Admin can share Intents to these Libraries
 
-Each Library Type can also be given a custom name, e.g. "Policy" Library or "Community" Library.
+Each Library Type can also be given a custom name, e.g. "Managed" Library or "Community" Library.
 
 Converse supports creating any number of Restricted and Open Library types. This needs to be set up at deployment time. Please contact a TAIGER or TAIGER Technical Partner representative for more information.
 
@@ -24,7 +24,7 @@ Converse supports creating any number of Restricted and Open Library types. This
 
 ### Creating Common Libraries
 
-1. Navigate to the ![](../.gitbook/assets/158.png) tab of the navigation bar.
+1. Navigate to the ![](../.gitbook/assets/166%20%281%29.png) tab of the navigation bar.
 2. Select the ![](../.gitbook/assets/159.png)on the library side panel. The following Popup will appear:![](../.gitbook/assets/160.png)
 3. Fill in the library name and assign the intended library type. The library type shown depends on what was configured beforehand \(see [Common Library Types](common-space.md#common-library-types)\)
 4. Click ![](../.gitbook/assets/161.png)
