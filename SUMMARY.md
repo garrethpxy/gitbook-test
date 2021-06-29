@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Omnitive Converse v3.0](README.md)
+* [Omnitive Converse](README.md)
 
 ## Getting Started
 
