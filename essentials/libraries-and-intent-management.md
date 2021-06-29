@@ -2,7 +2,7 @@
 
 ## What is an Intent?
 
-An Intent is a fundamental unit in Converse. It represents a piece of information the users can ask for, contains associated answers, and a part of a dialog. It is an intention conveyed in a user message which triggers some action. Each intent triggers a direct answer or guided conversational flow. A guided conversational flow is a series of actions linked together with a set of conditions and triggers another state of action \(see [Intent & Content Building](intent-and-dialog-building/)\)
+An Intent is a fundamental unit in Converse. It represents a piece of information the users can ask for, contains associated answers, and a part of a dialog. It is an intention conveyed in a user message which triggers some action. Each intent triggers a direct answer or guided conversational flow. A guided conversational flow is a series of actions linked together with a set of conditions and triggers another state of action.
 
 ## What is a Library?
 
@@ -249,7 +249,7 @@ Notes:
 ### **Import Intents via Excel**
 
 1. Select Library you wish to import into from the Library Side Panel.
-2. Click on the ![](../.gitbook/assets/16.png) button. The Import popup for configuration and excel uploading will be displayed.
+2. Click on the ![](../.gitbook/assets/15%20%281%29.png) button. The Import popup for configuration and excel uploading will be displayed.
 
 ![](../.gitbook/assets/17.png)
 
