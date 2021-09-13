@@ -1,4 +1,4 @@
-# Omnitive Converse v3.1.1
+# Omnitive Converse v3.2.0
 
 ## **What is Converse?**
 
